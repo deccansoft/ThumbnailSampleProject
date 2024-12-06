@@ -1,14 +1,11 @@
-using System;
 using Azure.Storage.Blobs;
+using DemoClassLibrary;
+using Microsoft.Azure.WebJobs;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using SkiaSharp;
 using System.IO;
 using System.Threading.Tasks;
-using Microsoft.Azure.WebJobs;
-using Microsoft.Azure.WebJobs.Host;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-using DemoClassLibrary;
-using Microsoft.EntityFrameworkCore;
-using SkiaSharp;
 
 namespace EmployeeManagement.ThumbnailFunc
 {
