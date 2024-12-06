@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoWebApp", "DemoWebApp\De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoClassLibrary", "DemoClassLibrary\DemoClassLibrary.csproj", "{A6054FC3-C208-4192-9820-A6BF1655A650}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.ThumbnailGenerator", "EmployeeManagement.ThumbnailGenerator\EmployeeManagement.ThumbnailGenerator.csproj", "{0756B49A-2F98-4037-95FD-F72103F7D32F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.ThumbnailFunc", "EmployeeManagement.ThumbnailFunc\EmployeeManagement.ThumbnailFunc.csproj", "{F52788DB-B3F2-4C3D-B2B4-A65865101BC9}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{A6054FC3-C208-4192-9820-A6BF1655A650}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6054FC3-C208-4192-9820-A6BF1655A650}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6054FC3-C208-4192-9820-A6BF1655A650}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0756B49A-2F98-4037-95FD-F72103F7D32F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0756B49A-2F98-4037-95FD-F72103F7D32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0756B49A-2F98-4037-95FD-F72103F7D32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0756B49A-2F98-4037-95FD-F72103F7D32F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F52788DB-B3F2-4C3D-B2B4-A65865101BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F52788DB-B3F2-4C3D-B2B4-A65865101BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F52788DB-B3F2-4C3D-B2B4-A65865101BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU

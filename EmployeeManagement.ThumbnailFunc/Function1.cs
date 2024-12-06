@@ -21,9 +21,9 @@ namespace EmployeeManagement.ThumbnailFunc
         }
 
         [FunctionName("Function1")]
-        public async Task Run([QueueTrigger("thumbnailrequest", Connection = "AzureWebJobsStorage")] BlobInformation blobInfo,
-                [Blob("empimages/{BlobName}", FileAccess.Read)] Stream input,
-                [Blob("empimages/{BlobNameWithoutExtension}_thumbnail.jpg", FileAccess.Write)] BlobContainerClient containerClient)
+        public async Task Run([QueueTrigger("thumbnailrequest", Connection = "StorageConnectionString")] BlobInformation blobInfo,
+                [Blob("empimages/{BlobName}", FileAccess.Read, Connection = "StorageConnectionString")] Stream input,
+                [Blob("empimages/{BlobNameWithoutExtension}_thumbnail.jpg", FileAccess.Write,  Connection = "StorageConnectionString")] BlobContainerClient containerClient)
         {
             var blobClient = containerClient.GetBlobClient($"{blobInfo.BlobNameWithoutExtension}_thumbnail.jpg");
             using (var outputStream = await blobClient.OpenWriteAsync(true))
