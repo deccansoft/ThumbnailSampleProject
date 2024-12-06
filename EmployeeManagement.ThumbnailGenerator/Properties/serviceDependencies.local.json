@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "type": "appInsights.sdk"
+    },
+    "storage1": {
+      "type": "storage.emulator",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "storage2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.ServiceLinker/locations/eastus/connectors/StorageConnectionString_36A2EA36AE, /subscriptions/24784a25-4b3b-4fbe-bd67-045821454fda/resourceGroups/Demo-rg/providers/Microsoft.ServiceLinker/locations/eastus/connectors/StorageConnectionString_C3279ADEC7",
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/thubnailstorage",
+      "type": "storage.azure",
+      "connectionId": "StorageConnectionString",
+      "dynamicId": null
+    }
+  }
+}
